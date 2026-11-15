@@ -1,0 +1,9 @@
+paired-alert-control:
+  id: paired-alert-control.dev.v0
+  metrics:
+  - accuracy
+paired-alert-control.dev.v0:
+  class: evals.elsuite.basic.json_match:JsonMatch
+  args:
+    samples_jsonl: paired-alert-control/samples.jsonl
+    max_tokens: 32
